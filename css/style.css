@@ -89,3 +89,9 @@ p {
 ul.demo {
   list-style-type: none;
 }
+
+#googlemap
+  {
+    width:100%;
+    height:100%;
+  }
