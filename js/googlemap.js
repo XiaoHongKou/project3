@@ -21,13 +21,7 @@ function initialize(){
   var infowindow = new google.maps.InfoWindow({
     content:alertBody,
   });
-  marker.addListener("click",() => {
-    marker.getAnimation() !==null?marker.setAnimation(null):marker.setAnimation(google.maps.Animation.BOUNCE);
-    infowindow.open({
-      map:myMap,
-      anchor:marker
-    });
-  });
+  
   var PathData = [
     [37.33601170789854, -122.01143327169987],
     [37.33666428191392, -122.00739922948098],
