@@ -95,3 +95,37 @@ ul.demo {
     width:100%;
     height:100%;
   }
+
+@media screen and (min-width:800px){
+  h1{
+    font-size: 5em;
+    font-weight:900;
+    color :skyblue;
+    text-align: center;
+    background-color: white;
+  }
+  h2
+  {
+  padding: 5px;
+  font-size:  2em;
+  font-style:normal;
+  color: black;
+  text-align: center;
+  background-color: #36c8d3;
+  }
+
+@media screen and (min-width:600px){
+p
+  {
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size:  2em;
+    font-style: unset;
+    text-indent: 2em;
+  }
+
+  #googlemap{
+    width:500px;
+    height:500px;
+    margin:100px 100px 100px 100px ;
+  }
